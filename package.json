@@ -12,6 +12,8 @@
     "styled-components": "^5.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -20,7 +22,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage" : "http://lkarcol.github.io/cv",
+  "homepage": "http://lkarcol.github.io/cv",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -32,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

@@ -104,7 +104,7 @@ const CvData = {
         {
           props: {
             title: "Node js - 5/10",
-            text: `Next js framework , TypeORM , TypeGraphql`
+            text: `Nest js framework , TypeORM , TypeGraphql`
           }
         },
         {
