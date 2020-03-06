@@ -79,38 +79,26 @@ const CvData = {
       main: [
         {
           props: {
-            title: "Javascript - 6/10",
+            title: "Javascript",
             text: `ES6 , Canvas , Webpack , Websocket `
           }
         },
         {
           props: {
-            title: "React - 7/10",
-            text: `Next js framework , Styled components , redux`
+            title: "React , TypeScript , Graphql",
+            text: `Next js framework , Styled components , redux , Apollo`
           }
         },
         {
           props: {
-            title: "Graphql - 5/10",
-            text: `Apollo js pre manažment stavu`
-          }
-        },
-        {
-          props: {
-            title: "TypeScript - 4/10",
-            text: ``
-          }
-        },
-        {
-          props: {
-            title: "Node js - 5/10",
+            title: "Node js , Postgresql",
             text: `Nest js framework , TypeORM , TypeGraphql`
           }
         },
         {
           props: {
-            title: "Postgresql - 4/10",
-            text: ``
+            title: "Ostatne (základy)",
+            text: `Docker,Gitlab CI/CD , AWS (S3,EC2)`
           }
         },
       ],
@@ -122,11 +110,9 @@ const CvData = {
         {
           props: {
             title: "2019-",
-            text: `Vývoj FE a BE pre platformu vychádzajúcu zo Styllie.com
+            text: `Vývoj FE a BE
             FE: Next js(React,TypeScript), Graphql(Apollo) , CSS:Styled components
             BE: Node(Nest js , TypeORM,TypeScript), Postgresql , Graphql API
-          
-            Diplomovka: C++ , TTEthernet , Matlab/Simulink , RPi - Simulácia riadenia vesmírnej lode (Dragon)
             `
           }
         },
@@ -136,18 +122,15 @@ const CvData = {
             text: `Styllie.com Fashion Platforma.
               Vývoj frontendu. 
               Technológie: React , Graphql(Apollo client) , CSS: Styled components 
-              Naučil som sa ako veľa vecí nerobiť :) a že je čas sa skamarátiť s Typescriptom.
             `
           }
         },
         {
           props: {
-            title: "2016-2017",
-            text: `Prechod z PHP , Laravel 
-              Prvý kontakt s Node js , React , Websockety
-              Pokus o remake hry RPS , ktorá bola na ICQ 
-              https://rps-remake.herokuapp.com/`
-
+            title: "2010-2017",
+            text: `Nepublikovatelne veci v PHP :D
+              Objavenie Vue , Angularu , Reactu , hladanie identity , najdenie identity v Reacte :D
+            `
           }
         },
       ],
@@ -197,7 +180,7 @@ const CvData = {
         },
         {
           props: {
-            title: "Elon Musk , SpaceX , Tesla , Space tech ...",
+            title: "Elon Musk , SpaceX , Tesla a hľadanie fantastickej budúcnosti. Space tech ...",
           }
         }
       ]
