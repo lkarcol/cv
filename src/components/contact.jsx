@@ -37,8 +37,20 @@ const ContactInfo = styled.div`
 
 `;
 
+const LanguageButton = styled.button`
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: underline;
+    outline: none;
 
-const Contact = ({ contact }) => {
+    &:hover{
+        text-decoration: none;
+    }
+`;
+
+
+const Contact = ({ contact, onLanguageClick, lng }) => {
 
     const renderContactInfo = () => contact.map(({ title, text }, key) => {
         return (
@@ -46,16 +58,23 @@ const Contact = ({ contact }) => {
                 <span>
                     {title}
                 </span>
-                <span>
-                    {text}
-                </span>
-            </ContactInfo>
+                {
+                    title === 'Github' ? (
+                        <a href={text}>Github</a>
+                    ) : (
+                            <span>
+                                {text}
+                            </span>
+                        )
+                }
+            </ContactInfo >
         )
     })
 
     return (
         <StyledContact>
             {renderContactInfo()}
+            <LanguageButton onClick={onLanguageClick}>{lng}</LanguageButton>
         </StyledContact>
     );
 }

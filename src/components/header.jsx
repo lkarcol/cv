@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Timer } from './';
 
 const AVATAR_SIZE = 200;
 
@@ -68,7 +67,6 @@ const Avatar = styled.img`
 const Header = ({ firstName, lastName }) => {
     return (
         <StyledHeader>
-            <Timer />
             <PersonalInfo>
                 <Avatar src="./header.png" alt="avatar" />
                 <Name>
